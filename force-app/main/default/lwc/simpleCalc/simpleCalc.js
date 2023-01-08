@@ -26,7 +26,7 @@ export default class SimpleCalc extends LightningElement {
         const firstN = parseInt(this.firstNumber);
         const secondN = parseInt(this.secondNumber);
 
-        this.currentResult = `Result of ${firstN}-${secondN} is ${firstN+secondN}`;
+        this.currentResult = `Result of ${firstN}-${secondN} is ${firstN-secondN}`;
     }
     //Function to handle Multiply
     multiplyHandler(){
